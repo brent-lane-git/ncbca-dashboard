@@ -1,0 +1,16 @@
+{
+  "watch": ["*.js", "config/*.js"],
+  "ext": "js,json",
+  "ignore": [
+    "uploads/*",
+    "node_modules/*",
+    ".git/*",
+    "*.test.js",
+    "nodemon.json"
+  ],
+  "exec": "node --max-old-space-size=2048 server.js",
+  "verbose": true,
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
